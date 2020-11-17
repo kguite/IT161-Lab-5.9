@@ -1,0 +1,72 @@
+/* 
+
+Use a <div> for each of the 4 verse containers and the outer container.
+The title “Yesterday” uses an <h2> tag with a 16pt Arial font that is blue and italicized. Do not use an <i> tag.
+The entire song is embedded in a container that is 600 x 280 pixels, has a two pixel solid blue border, and a five pixel padding. The background color is #F0F0F0.
+The outer <div>'s first child is the <h2>. The 4 child <div>s follow, declared in the order listed below. */
+
+#container {
+	width: 600px;
+	height: 280px;
+	border: 2px solid blue;
+	padding: 5px;
+	background-color: #F0F0F0;
+	
+}
+
+h2 {
+	font-size: 16pt;
+	font-family: Arial;
+	color: blue;
+	font-style: italic;
+}
+
+.yellow {
+	background-color: yellow;
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+/* The orange section:
+has a background color of "orange"
+is positioned at (110px, 200px) with absolute positioning
+has a 200 pixel width
+has a 10 pixel padding */
+
+.orange {
+	background-color: orange;
+	position: absolute;
+	left: 110px;
+	top: 200px;
+	width: 200px;
+	padding: 10px;
+	
+}
+
+/* The orange-red section:
+has a background color of "rgb(255, 80, 0)"
+has white text
+floats to the right
+has a 200 pixel width
+has a 10 pixel padding
+has a right margin of 40 pixels, a top margin of 20 pixels, and all other margins set to 0 */
+
+
+.orangeRed {
+	background-color: rgb(255, 80, 0);
+	color: white;
+	float: right;
+	width: 200px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	
+}
+
